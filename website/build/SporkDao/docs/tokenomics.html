@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Tokenomics · SporkDao</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="SPORK is the ecosystem’s native ERC-20 token and will be used for incentives, governance, project development, swaps and token burns. As for investors and liquidity providers, the SPORK token’s ownership makes them eligible for a range of use-cases."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Tokenomics · SporkDao"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sporkdao.com/"/><meta property="og:description" content="SPORK is the ecosystem’s native ERC-20 token and will be used for incentives, governance, project development, swaps and token burns. As for investors and liquidity providers, the SPORK token’s ownership makes them eligible for a range of use-cases."/><meta property="og:image" content="https://sporkdao.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sporkdao.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="SporkDao"/><h2 class="headerTitleWithLogo">SporkDao</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"></ul></nav></div></header></div></div><div class="navPusher singleRowMobileNav"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>$SPORK token</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">SporkDao</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/overview">Sporkdao Introduction</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">$SPORK token</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/tokenomics">The Spork ($Spork) Token</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Tokenomics</h1></header><article><div><span><p>SPORK is the ecosystem’s native ERC-20 token and will be used for incentives, governance, project development, swaps and token burns. As for investors and liquidity providers, the SPORK token’s ownership makes them eligible for a range of use-cases.</p>
+<h2><a class="anchor" aria-hidden="true" id="use-cases"></a><a href="#use-cases" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Use Cases</h2>
+<p>The SPORK token has several use-cases within the Spork ecosystem:</p>
+<ul>
+<li>Additional Benefits: Investors holding Spork tokens get additional benefits and better swap ratios for pools running on the platform, as outlined in the previous sections.</li>
+</ul>
+<ul>
+<li>Governance: The Spork platform will implement a regular Proof of Stake (PoS) consensus mechanism, enabling SPORK holders to gain voting rights by staking their tokens in designated wallets. In general, the mechanism will involve limited-period staking, to be defined in detail at the time of the platform’s governance launch. In the spirit of fair value and democracy, staking votes will yield rewards based on weight, but 1 vote per staker will be strictly enforced so the protocol is not dominated by larger holders.</li>
+</ul>
+<ul>
+<li>Staking: Spork token holders will be able to generate annual passive income from their SPORK tokens, simply by holding their tokens in specific ERC20 wallets. Periodically there will be staking pools where Sporks may stake their SPORK tokens in Farming Pools to receive additional rewards on top of the dividend tax fees.</li>
+</ul>
+<ul>
+<li>LP Pools: Sporks that provide SPORK tokens via specific liquidity pools (Uniswap, 1Inch, etc.) will have the chance to gain additional rewards, on top of staking rewards generated from dividend tax fees. Simply add liquidity to the specific pool and stake your LP tokens in the corresponding farm.</li>
+</ul>
+<ul>
+<li>Transactions Fees (Dividends, YE Bonus, Burn): Spork token transactions automatically apply a 12% tax for purchase and sales. This tax is collected to incentivise holders with dividend payments on transactions. It is also implemented to prevent front runner bots from abusing our system. 10% is paid out to all holders, while 1% is sent to the year-end Bonus contract, 0.5% sent to reserve and 0.5% is burnt to create deflation. Users that stake their tokens in contracts or simply hold in their wallet will automatically receive all rewards, anywhere tokens are kept.</li>
+</ul>
+<ul>
+<li>Token Burn/Burn Swap: Spork will adopt periodic token burns to increase the value and scarcity in Spork token as popularity grows. Spork will also include a Burn Swap for future projects where users will be able to swap SPORK for an allotted amount of tokens of upcoming projects. This will allow users to swap to new tokens without impacting the price of SPORK negatively. All SPORK tokens swapped will be burnt.</li>
+</ul>
+<ul>
+<li>Reserve: This reserve are tokens allocated for future initiatives and to support the community, marketing, exchanges fees ,and long term liquidity.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="token-sale-metrics"></a><a href="#token-sale-metrics" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Token Sale Metrics</h2>
+<p>Total Supply: 100,000,000 Spork (Deflationary to 10,000,000)</p>
+<ul>
+<li>Presale 1: 10,000,000 - Starting Feb. 1 -7 - 1 ETH = 35,000 (.04)</li>
+<li>Presale 2: 40,000,000 - Starting Feb. 7 -14 - 1 ETH = 30,000 (.046)</li>
+<li>LP/Staking/Vesting: 15,000,000 - X/Timelock(Double to Triple Rewards) - X/Flexible(Low Reward)</li>
+<li>Development: 25,000,000</li>
+<li>Team and Advisors: 10,000,000</li>
+<li>Listing Price: 1 ETH = 25,000 (.056)</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="token-allocation--circulation"></a><a href="#token-allocation--circulation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Token Allocation &amp; Circulation</h2>
+<h4><a class="anchor" aria-hidden="true" id="public-sale"></a><a href="#public-sale" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Public Sale</h4>
+<p>50,000,000 Spork (50%) will be allocated for pre sales. Sales will happen in a 2 week window with the first phase week one and second phase of sale during week 2. All unsold tokens will be burnt. Listing will happen on Uniswap shortly after presale concludes. Softcap will be 75 ETH and Hardcap is 600 ETH.</p>
+<h4><a class="anchor" aria-hidden="true" id="staking-lptimelockstaking-rewards"></a><a href="#staking-lptimelockstaking-rewards" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Staking (LP/Timelock/Staking) Rewards</h4>
+<p>25,000,000 Spork (25%) will be allocated as staking rewards, to be circulated in the form of Average Annual Yields (AYY) Spork holders who stake their tokens in a compatible farm and will come into circulation over a period of 10 years, with a maximum capping of 2,500,000 tokens per year.</p>
+<h4><a class="anchor" aria-hidden="true" id="marketing-and-development"></a><a href="#marketing-and-development" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Marketing and Development</h4>
+<p>15,000,000 Spork (15%) this reserve tokens are allocated for future initiatives and to support the community ,and long term liquidity. Monthly vesting, over 24 months</p>
+<h4><a class="anchor" aria-hidden="true" id="team--advisors"></a><a href="#team--advisors" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Team &amp; Advisors</h4>
+<p>10,000,000 SPORK (10%) will be allocated for incentivizing the Spork team and its advisors. The team’s allocation will be disbursed over 6 months of equal vesting, after a lock-in period of 1 year. Advisors will receive their allocation similarly, but after 6 months of lock-in.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/overview"><span class="arrow-prev">← </span><span>Sporkdao Introduction</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#use-cases">Use Cases</a></li><li><a href="#token-sale-metrics">Token Sale Metrics</a></li><li><a href="#token-allocation--circulation">Token Allocation &amp; Circulation</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2021 SporkyTeam</section></footer></div></body></html>
