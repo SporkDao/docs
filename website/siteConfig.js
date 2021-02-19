@@ -12,15 +12,15 @@
 const siteConfig = {
   title: 'SporkDao', // Title for your website.
   tagline: 'Docs for SporkDao',
-  url: 'https://sporkdao.com', // Your website URL
+  url: 'https://sporkdao.github.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'SporkDao',
-  organizationName: 'SporkyTeam',
+  projectName: 'docs',
+  organizationName: 'SporkDao',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'

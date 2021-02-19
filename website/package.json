@@ -8,7 +8,7 @@
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build/SporkDao"
   },
   "homepage": "http://sporkdao.github.io/docs",
   "devDependencies": {
