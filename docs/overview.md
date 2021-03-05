@@ -6,6 +6,8 @@ sidebar_label: Sporkdao Introduction
 
 ## Overview
 
+![Example banner](./assets/SporkDAO_Money.gif)
+
 *SporkDAO* aims to become the most respected and fairest VC incubator for decentralized blockchain application/technology. To break the cycle of early-stage investments in high-potential cryptocurrency projects, which normally see large traditional VCs buy out stacks of tokens in strategic, seed, and private sale investment rounds at far lower prices than retail investors got during the public sale. These VCs would then dump their holdings on retail investors to secure an easy profit, while simultaneously damaging sentiment surrounding the project.
  
 Instead, we believe in cultivating long-term partnerships with the projects we support, helping to establish a fair, just and healthy, natural growth that builds lasting success.
@@ -29,12 +31,13 @@ SPORK aims to highly reward and incentivise its holders. All token holders will 
 
 Users can achieve higher project rewards through NFT SWAP, which can be leveraged to access our community tiers — each of which provides increasing benefits for our community. In order to access each membership tier, Sporks need to burn a fixed minimum number of SPORK tokens in their MetaMask wallet (to be determined prior to first project launch). Our current (NFT)token-permissioned membership groups are:
 
-Criteria  | Membership level
+Level | Requirement 
 ------------- | -------------
-10 SPORK | SPORK CADETS
-200 SPORK | SPORK LORDS
-2,500 SPORK | IN SPORK WE TRUST
-10,000 SPORK | SPORK OR DIE
+SPORK GANG  (Limited tier-1,000) | 1,800 SPORK - 1.8M possible SPORKS burnt
+SPORKFIRE CLUB (Limited tier-500) | 9,000 SPORK - 4.5M possible SPORKS burnt
+ROUND TABLE OF SPORKS (Limited tier-100) | 18,000 SPORK - 1.8M possible SPORKS burnt
+SWHALE (Limited tier-10)  | 100,000 SPORK - 1M possible SPORKS burnt
+
 
 
 
