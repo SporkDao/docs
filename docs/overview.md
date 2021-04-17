@@ -27,13 +27,14 @@ Spork embarks on a long-term mission to disrupt and fully decentralize liquidity
 
  
 ## Decentralized VC Vesting: How it Works and What is the Opportunity?
-SPORK aims to highly reward and incentivise its holders. All token holders will receive dividends for each transaction fee, which has a fixed 12% fee on purchase and sales. 10% of this fee is paid instantly to all holders, while 1% is collected in a bonus fund and paid out to our long term hodlers. Bonus weight ratio will be assessed based on period snapshots throughout the year. To top this off, as our VC ecosystem expands, so does your portfolio as holders of SPORK become investors and of all future on boarded projects.
+SPORK aims to highly reward and incentivise its holders. All token holders will receive dividends for each transaction fee, which has a fixed 5% fee on purchase and sales. 1% of this fee is paid instantly to all holders, while 3% is collected in a bonus fund and paid out to our long term hodlers. Remaining 1% will be split between; 0.5% sent to reserve and 0.5% is burnt to create deflation. Bonus weight ratio will be assessed based on periodic snapshots throughout the year. To top this off, as our VC ecosystem expands, so does your portfolio as holders of SPORK become investors of all future on-boarded projects.
 
-Users can achieve higher project rewards through NFT SWAP, which can be leveraged to access our community tiers — each of which provides increasing benefits for our community. In order to access each membership tier, Sporks need to burn a fixed minimum number of SPORK tokens in their MetaMask wallet (to be determined prior to first project launch). Our current (NFT)token-permissioned membership groups are:
+Users can achieve higher project rewards through our NFT SWAP, which can be leveraged to access our community tiers — each of which provides increasing benefits for our members. In order to access each membership tier, Sporks need to burn a fixed minimum number of SPORK tokens (to be determined prior to first project launch) to mint the corresponding NFT they desire. Our current (NFT)token-permissioned membership groups are:
+
 
 Level | Requirement 
 ------------- | -------------
-SPORK GANG  (Limited tier-1,000) | 1,800 SPORK - 1.8M possible SPORKS burnt
+SPORK UNION  (Limited tier-1,000) | 1,800 SPORK - 1.8M possible SPORKS burnt
 SPORKFIRE CLUB (Limited tier-500) | 9,000 SPORK - 4.5M possible SPORKS burnt
 ROUND TABLE OF SPORKS (Limited tier-100) | 18,000 SPORK - 1.8M possible SPORKS burnt
 SWHALE (Limited tier-10)  | 100,000 SPORK - 1M possible SPORKS burnt
@@ -43,7 +44,7 @@ SWHALE (Limited tier-10)  | 100,000 SPORK - 1M possible SPORKS burnt
 
 As part of our collaboration, projects provide these special SporkDAO users with an extra airdrop and purchasable allocation of tokens which we distribute to those who have joined our (NFT)token-permissioned Telegram communities. All NFT holders will still receive dividends and bonus reciprocal to the value of their NFT (#burnt tokens).
  
-SPORK can be purchased on Uniswap or earned by participating in community events, such as interactive interviews (AMAs) with our projects. Besides our exclusive membership communities, SporkDAO also operates a lobby for general discussions. Users are free to sell their membership NFT on open markets or via our marketplace, as membership tiers, prices, and capacity will change. Those who sell their NFT will be automatically removed from a group.
+SPORK can be purchased on Pancakeswap or earned by participating in community events, such as interactive interviews (AMAs) with our projects. Besides our exclusive membership communities, SporkDAO also operates a lobby for general discussions. Users are free to sell their membership NFT on open markets or via our marketplace, as membership tiers, prices, and capacity will change. Those who sell their NFT will be automatically removed from a group.
  
 Customers in the highest tier benefit from a larger percentage of the allocation we receive from each project, and hence members in those tiers have a larger personal cap. We try to ensure part of the allocation reaches all premium tiers, giving everybody a chance to claim a stake in hot new projects.
 
