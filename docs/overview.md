@@ -6,7 +6,7 @@ sidebar_label: Sporkdao Introduction
 
 ## Overview
 
-![Example banner](./assets/SporkDAO_Money.gif)
+![Example banner](./assets/SporkDao_Coins.gif)
 
 *SporkDAO* aims to become the most respected and fairest VC incubator for decentralized blockchain application/technology. To break the cycle of early-stage investments in high-potential cryptocurrency projects, which normally see large traditional VCs buy out stacks of tokens in strategic, seed, and private sale investment rounds at far lower prices than retail investors got during the public sale. These VCs would then dump their holdings on retail investors to secure an easy profit, while simultaneously damaging sentiment surrounding the project.
  
