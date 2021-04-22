@@ -35,22 +35,23 @@ The SPORK token has several use-cases within the Spork ecosystem:
  
 > Total Supply: 100,000,000 Spork (Deflationary to 10,000,000)
 
-* Whitelist Sale: 10,000,000 (20% bonus airdrop)
-    * 1 BNB = 12,500 SPORK ($.04pu)* 
+* Whitelist Sale: 10,000,000 (20% bonus airdrop included)
+    * 1 BNB = 12,500 SPORK 
     * 640 BNB MAX (Unsold tokens will be available to public sale)
-    * Limit on purchase: FCFS till sold out
+    * Limit on purchase: 10 BNB Max per wallet 
 
-* Public Sale: 40,000,000 - TBA after Whitelist
-    * 1 BNB = 11,111 SPORK ($.045pu)* 
+* Public Sale: 40,000,000 - After Whitelist concludes
+    * 1 BNB = 11,111 SPORK
     * 3,600 BNB MAX (Not including unsold whitelist tokens)
     * Limit on purchase: None, FCFS till sold out
 
-* LP/Staking/Vesting: 15,000,000    
-    * - X/Timelock(Double to Triple Rewards) 
+* LP/Staking/Vesting: 25,000,000    
+    * - X/Timelock(High Rewards) 
     * - X/Flexible(Low Reward)
+    * 20% Supply released per year
 
-* Development: 25,000,000
-    * 10% Timelocked: 3mo
+* Development: 15,000,000
+    * 10% Supply released
     * 15% Timelocked: 6mo
     * 25% Timelocked: 1yr 
     * 50% Timelocked: 2yr 
@@ -61,8 +62,7 @@ The SPORK token has several use-cases within the Spork ecosystem:
     * 25% Timelocked: 1yr 
     * 50% Timelocked: 2yr 
 
-* Listing Price: 1 BNB = 10,000 SPORK ($.05pu)*
-*Prices to reflect USD value and will adjust BNB price accordingly via smart contract.
+* Listing Price: 1 BNB = 10,000 SPORK
  
  
  
@@ -72,10 +72,10 @@ The SPORK token has several use-cases within the Spork ecosystem:
 
  
 #### Staking (LP/Timelock/Staking) Rewards ####
-25,000,000 SPORK (25%) will be allocated as staking rewards, to be circulated in the form of Average Annual Yields (AAY) Spork holders who stake their tokens in a compatible farm will be eligible for these rewards. Rewards will come into circulation over a period of 10 years, with a maximum capping of 2,500,000 tokens per year.
+25,000,000 SPORK (25%) will be allocated as staking rewards, to be circulated in the form of Average Annual Yields (AAY) Spork holders who stake their tokens in a compatible farm will be eligible for these rewards. Rewards will come into circulation over a period of 5 years, with a maximum capping of 5,000,000 tokens per year.
  
 #### Marketing, Development, and Community Rewards ####
-15,000,000 SPORK (15%) tokens are allocated for future initiatives, airdrops/rewards for the community, liquidity provisions, and development of the protocol. The fund’s allocation will be disbursed in various (%), after a lock-in period starting at 3 months to 2 year. 
+15,000,000 SPORK (15%) tokens are allocated for future initiatives, airdrops/rewards for the community, liquidity provisions, and development of the protocol. The fund’s allocation will be disbursed in various (%), after a lock-in period starting at 3 months to 2 year. 10% of fund will be released immediately, with full diclosure of any portion used for any reason.
 
  
 #### Team & Advisors #### 
